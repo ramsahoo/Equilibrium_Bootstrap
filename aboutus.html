@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa|Arima+Madurai|Sans+Serif" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Equilibrium</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center"></div>
+                <div class="col-12">
+                    <h1>Equilibrium</h1>
+                    <h2>the first step towards world peace</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#equilibriumNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="equilibriumNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="travel.html"><i class="fa fa-list fa-lg"></i>
+                            Travel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address fa-lg"></i>
+                            Contact</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
+                <h2>About Us</h2>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Our Impact</h3>
+                <p>To bring an experience of real change and improvement to the African population and first-hand
+                    immersive travel experience to the volunteer.
+                </p>
+            </div>
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/sponsor.thumbnail.jpg" alt="sponsor" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <h3>Sponsors</h3>
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#apparel">
+                                    African Outfitters <small>Homemade Apparel</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="apparel" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">African Outfitters has the most exiquisite homemade
+                                        apparel that you can't find anywhere else.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#expedition">
+                                    Coastal Expeditions <small>Group Adventure Expeditions</small>
+                                </a>
+                            </h4>
+                            <div class="collapse" id="expedition" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Join Coastal Expeditions to explore new horizons with a
+                                        group of other adventurers!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+                    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+                    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+                    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+<footer>
+</footer>
+
+</html>
