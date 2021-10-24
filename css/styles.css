@@ -1,17 +1,32 @@
 body {
     font-family: "sans serif";
     font-size: 20px;
-    background-image: linear-gradient(to bottom right, pink, black)
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
 }
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
+
+h3 {
+    text-align: center;
+}
+
 
 .jumbotron {
     margin: 0;
-    padding: 30px;
+    padding: 50px;
     background-color:black;
+    background-image: url(../img/hands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -41,4 +56,41 @@ a, a:hover {
 
 footer {
     font-size: 50px;
+}
+
+.menuBody {
+    padding: 30px 0;
+    background: beige;
+    background-image: url('../img/background_zimbabwe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index {
+    background-color: lightblue;
+    background-image: url(../img/giraffes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutus {
+    background-color: rgb(233, 233, 122);
+    background-image: url(../img/people.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.travel {
+    background-color: rgb(216, 181, 159);
+    background-image: url(../img/tourist.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactus {
+    background-color: rgb(219, 219, 138);
 }
